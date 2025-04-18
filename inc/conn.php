@@ -110,6 +110,8 @@ try {
         </p>
         <div class="error-code"><strong>Error Code:</strong> DB-CONN-001</div>
         <a href="" class="btn btn-outline-danger btn-refresh"><i class="bi bi-arrow-clockwise"></i> Try Again</a>
+        or try this to fix the error 
+        <a href="../trouble_shoot.php">HELP?</a>
     </div>
 
     <script>
@@ -137,7 +139,7 @@ try {
                 }
             },
             interactivity: {
-                events: {
+                events: { 
                     onhover: { enable: true, mode: "grab" },
                     onclick: { enable: true, mode: "push" }
                 },
